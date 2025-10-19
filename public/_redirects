@@ -1,0 +1,6 @@
+# Redirect rules for Cloudflare Pages
+# Redirect www to non-www
+https://www.leopennydigitalsolutions.com/* https://leopennydigitalsolutions.com/:splat 301
+
+# Catch-all for 404s
+/*    /404.html   404
