@@ -1,5 +1,0 @@
-name = "leopenny-landing"
-compatibility_date = "2025-10-19"
-
-[assets]
-directory = "."
