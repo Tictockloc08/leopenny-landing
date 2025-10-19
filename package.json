@@ -1,0 +1,10 @@
+{
+  "name": "leopenny-landing",
+  "version": "1.0.0",
+  "description": "Coming soon landing page for Leopenny Digital Solutions",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["landing-page", "coming-soon"],
+  "author": "Leopenny Digital Solutions"
+}
