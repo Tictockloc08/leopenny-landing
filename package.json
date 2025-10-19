@@ -4,10 +4,10 @@
   "description": "Static landing page for Leopenny Digital Solutions",
   "scripts": {
     "build": "echo 'Static site - no build required'",
-    "deploy": "echo 'Static site deployment complete'",
+    "deploy": "echo 'Cloudflare Pages deployment complete'",
     "start": "python3 -m http.server 8000"
   },
-  "keywords": ["landing-page", "static", "github-pages"],
+  "keywords": ["landing-page", "static", "cloudflare-pages"],
   "author": "Leopenny Digital Solutions",
-  "homepage": "https://tictockloc08.github.io/leopenny-landing/"
+  "homepage": "https://leopennydigitalsolutions.com/"
 }
