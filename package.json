@@ -1,0 +1,10 @@
+{
+  "name": "leopenny-landing",
+  "version": "1.0.0",
+  "description": "Static landing page for Leopenny Digital Solutions",
+  "scripts": {
+    "deploy": "echo 'Static site deployment complete'"
+  },
+  "keywords": ["landing-page", "static"],
+  "author": "Leopenny Digital Solutions"
+}
