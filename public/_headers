@@ -6,9 +6,15 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
 /index.html
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=300
 
 /404.html
+  Cache-Control: public, max-age=300
+
+/*.jpg
+  Cache-Control: public, max-age=3600
+
+/*.png
   Cache-Control: public, max-age=3600
 
 /assets/*
