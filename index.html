@@ -149,8 +149,8 @@
         .content:hover {
             background: rgba(184, 134, 11, 0.15);
             backdrop-filter: blur(15px);
-            border-color: rgba(240, 230, 140, 0.5);
-            box-shadow: 0 35px 70px rgba(184, 134, 11, 0.3);
+            border: 2px solid rgba(240, 230, 140, 0.6);
+            box-shadow: 0 35px 70px rgba(184, 134, 11, 0.3), 0 0 20px rgba(240, 230, 140, 0.4);
             transform: translateY(-5px);
         }
 
@@ -161,6 +161,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            text-shadow: 0 2px 4px rgba(184, 134, 11, 0.3);
             margin-bottom: 1.5rem;
             animation: fadeInUp 1s ease-out 0.3s both;
             letter-spacing: -0.02em;
@@ -222,7 +223,7 @@
             color: #ffffff;
             margin-bottom: 1rem;
             animation: fadeInUp 1s ease-out 0.9s both;
-            letter-spacing: -0.03em;
+            letter-spacing: 0.05em;
         }
 
         .subtitle {
@@ -261,8 +262,8 @@
             transform: translateY(-2px);
             background: rgba(184, 134, 11, 0.2);
             backdrop-filter: blur(15px);
-            border-color: rgba(240, 230, 140, 0.5);
-            box-shadow: 0 10px 30px rgba(184, 134, 11, 0.3);
+            border: 2px solid rgba(240, 230, 140, 0.6);
+            box-shadow: 0 10px 30px rgba(184, 134, 11, 0.3), 0 0 15px rgba(240, 230, 140, 0.4);
         }
 
         .status-indicator::before {
